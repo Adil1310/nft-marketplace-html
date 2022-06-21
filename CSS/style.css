@@ -124,3 +124,50 @@ input::placeholder{
 .statistics{
     width: 70%;
 }
+.sub-menu{
+    width: 100vw;
+    height: 200px;
+    background: rgba(217, 224, 236, 0.2);
+    backdrop-filter: blur(50px);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px 0px 200px;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 150px;
+}
+.sub-side-menu{
+    display: flex;
+    flex-direction: row;
+}
+.sub-menu-span-title{
+    width: 300px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+}
+.sub-menu-txt{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #696969;
+}
+#sub-menu-vector{
+    width: 32px;
+    height: 27px;
+    margin-right: 20px;
+}
+#sub-menu-vector-2{
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+.sub-menu-span-title{
+    margin-bottom: 10px;
+}
+.container-menu{
+    width: 424px;
+    height: 600px;
+}
